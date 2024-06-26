@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FDEFE4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.left-section {
+    flex: 1;
+}
+
+.student-img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.right-section {
+    flex: 1;
+    text-align: center;
+}
+
+.right-section h1 {
+    color: #D8232A;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.consultation-form {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.consultation-form h2 {
+    color: #D8232A;
+    margin-bottom: 20px;
+}
+
+.consultation-form input,
+.consultation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D8232A;
+    border-radius: 4px;
+}
+
+.consultation-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #D8232A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.features {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.features li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.features li::before {
+    content: "•";
+    color: #D8232A;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -20px;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    color: #D8232A;
+    margin-bottom: 10px;
+}
+
+.right-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    font-size: 18px;
+    color: #D8232A;
+}
+
+footer {
+    background-color: #D8232A;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.contact {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 5px;
+}
+
+.phone-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 14px;
+    line-height: 1.5;
+}
